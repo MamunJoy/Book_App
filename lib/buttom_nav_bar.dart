@@ -21,6 +21,9 @@ class _BottomNavBarState extends State<BottomNavBar> {
       ),
 
       drawer: Drawer(
+        shape: RoundedRectangleBorder(
+          borderRadius: BorderRadius.zero,
+        ),
         child: Column(
           children: [
 
